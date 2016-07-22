@@ -23,6 +23,20 @@ body, html {
     font-style: italic;
 }
 
+a.photo-author {
+    color:#CCCCCC;
+}
+
+a.photo-author:hover {
+    color:white;
+}
+
+p.photo-author {
+    position: absolute; 
+    right: 20px; 
+    bottom: 0px;
+}
+
 .purple-color {
     color: #C4C4C4;
 }
