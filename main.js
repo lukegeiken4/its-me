@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.parallax').parallax();
-
+  console.log('Setting up the maps');
   setupTaksim();
   setupParis();
   setupVancouver();
