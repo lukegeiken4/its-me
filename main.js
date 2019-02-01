@@ -1,8 +1,6 @@
 $(document).ready(function(){
   $('.parallax').parallax();
-});
 
-function initMaps() {
   console.log('Setting up the maps');
 
   var taksimCords = new google.maps.LatLng(41.037860, 28.985049);
@@ -23,7 +21,7 @@ function initMaps() {
   var vancouverEl = document.getElementById(vancouverElId);
   console.log(vancouverEl);
   setupMap(vancouverCords, vancouverEl);
-}
+});
 
 function setupMap(cords, el) {
   var map = new google.maps.Map(el, {zoom: 4, center: cords});
