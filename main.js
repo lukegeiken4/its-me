@@ -10,7 +10,7 @@ $(document).ready(function(){
   console.log(taksimEl);
   setupMap(taksimCords, taksimEl);
 
-  var bledCords = new google.maps.LatLng(46.364355, 13.093704);
+  var bledCords = new google.maps.LatLng(46.363969, 14.093794);
   var bledElId = "bledMap";
   var bledEl = document.getElementById(bledElId);
   console.log(bledEl);
