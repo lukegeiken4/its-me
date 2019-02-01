@@ -24,6 +24,6 @@ $(document).ready(function(){
 });
 
 function setupMap(cords, el) {
-  var map = new google.maps.Map(el, {zoom: 4, center: cords});
+  var map = new google.maps.Map(el, {zoom: 12, center: cords});
   var marker = new google.maps.Marker({position: cords, map: map});
 }
