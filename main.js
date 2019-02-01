@@ -7,6 +7,7 @@ function initMaps() {
 
   var taksimCords = new google.maps.LatLng(41.037860, 28.985049);
   var taksimElId = 'taksimMap';
+  console.log(document);
   var taksimEl = document.getElementById(taksimElId);
   console.log(taksimEl);
   setupMap(taksimCords, taksimEl);
